@@ -1,0 +1,36 @@
+# Binarios y ejecutables
+/bin/
+/tmp/
+/main
+*.exe
+*.out
+
+# Dependencias de Go (si no usas Go Modules)
+/pkg/
+/vendor/
+
+# Archivos generados por IDEs y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos de entorno y configuración local
+.env
+.env.local
+*.env
+
+# Logs y datos temporales
+*.log
+*.tmp
+
+# Test coverage
+coverage.txt
+coverage.out
+
+# Go workspace file (si usas `go.work`)
+go.work
+go.work.sum
+
+# Archivos específicos de herramientas
+air.toml  # Si usas live-reload (Air)
