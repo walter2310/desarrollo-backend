@@ -7,7 +7,8 @@ import (
 )
 
 type Envs struct {
-	Port string `mapstructure:"PORT"`
+	Port  string `mapstructure:"PORT"`
+	DbUrl string `mapstructure:"DB_URL"`
 }
 
 func LoadEnvs() Envs {

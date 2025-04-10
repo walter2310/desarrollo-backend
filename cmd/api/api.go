@@ -7,7 +7,6 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
-	"github.com/walter2310/desarrollo-backend/internal/repository"
 )
 
 type Application struct {
@@ -16,7 +15,6 @@ type Application struct {
 
 type Config struct {
 	Address string
-	Store   repository.Storage
 }
 
 func (app *Application) mount() http.Handler {

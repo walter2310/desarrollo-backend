@@ -19,6 +19,7 @@
 .env
 .env.local
 *.env
+postgres
 
 # Logs y datos temporales
 *.log
